@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiania's Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">   
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <script src="./app.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </head>
+  <body>
+
+    <header class="primary-header">
+      <div class="nav-container">
+        <div class="nav-wrapper">
+          <a class="logo" href="">Dr.Tatiana</a>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <img class="icon-hamburger" src="images/icon-hamburger.png" alt="">
+            <img class="icon-close" src="images/icon-close.png" alt="">
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation"> 
+            <ul role="list" class="nav-list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#prices">Prices</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul> 
+          </nav>
+          <div class="adres display-sm-none display-md-inline-flex">
+              <p class="adres__text">Goldfield Rd. <br> Honolulu, Hi 96815</p>
+              <a href="https://www.google.com/maps/place/Berlin/@52.5068441,13.4247318,10z/data=!4m6!3m5!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954!16zL20vMDE1NnE?hl=en&gl=DE" target="_blank"><img class="location-image" src="images/location.png" alt="location image"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__title">
+          <h1>The Science Of Beauty!</h1>
+          <p>Revealing, restoring, and enhancing beauty with extra care and attention!</p>
+          <button class="btn">FREE CONSULTATION</button>
+        </div>
+        <div class="hero__img">
+          <img src="images/hero_main.png" alt="image of main hero">
+        </div>
+      </section>
+
+      <section class="numbersOfClients">
+        <div class="counter-container">
+          <div class="counter" data-target="2300">2300</div>
+          <p>Clients</p>
+        </div>
+        <div class="counter-container">
+          <div class="counter" data-target="9">8</div>
+          <p>Years of Experience</p>
+        </div>
+        <div class="counter-container">
+          <div class="counter" data-target="5000">5000</div>
+          <p>Procedures</p>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <div class="about-container">
+          <div class="about__info">
+            <div>
+              <h2>Discover a New You!</h2>
+              <p class="about-second-heading">Welcome To Clinic!</p>
+              <p>Our dedicated team of professionals is passionate about enhancing your natural beauty, providing advanced skincare solutions and cutting-edge cosmetic procedures tailored to your unique needs. Embrace the journey of self-discovery as we invite you to immerse yourself in our serene environment, meticulously designed to offer a blissful escape from the everyday hustle.</p>
+              <button class="btn">ABOUT CLINIC</button>
+            </div>
+          </div>
+
+          <div class="about__img">
+            <img src="images/discover-new-you.jpg" alt="">
+          </div>
+
+          <div class="reputation-box">
+            <div class="reputation-box__element">
+              <img src="images/graduation-cap.png" alt="">
+              <p>High Qualified Specialists</p>
+            </div>
+            <div class="reputation-box__element">
+              <img src="images/specialists.png" alt="">
+              <p>Professional Approach</p>
+            </div>
+            <div class="reputation-box__element">
+              <img src="images/materials.png" alt="">
+              <p>Perfect Quality Materials</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="newyou">
+            <h2>Unveil your best self!</h2>
+            <p>Embark on beauty!</p>
+            <button class="btn">OUR PROCEDURES</button>
+      </section>
+
+   
+
+      <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+          <div class="service">
+            <img src="images/aesthetic.jpg" alt="">
+            <h3>Aesthetic Cosmetology</h3>
+            <p>Aesthetic cosmetology is designed to preserve youth, beauty and slow down the aging process of the body</p>
+            <a href="">MORE INFO</a>
+          </div>
+          <div class="service">
+            <img src="images/hardware.jpg" alt="">
+            <h3>Hardware Cosmetology</h3>
+            <p>Hardware cosmetology is a complex of medical and care procedures using special equipment</p>
+            <a href="">MORE INFO</a>
+          </div>
+          <div class="service">
+            <img src="images/injection.jpg" alt="">
+            <h3>Injection Cosmetology</h3>
+            <p>Injection cosmetology is a complex of invasive methods for correcting the condition of the skin</p>
+            <a href="">MORE INFO</a>
+          </div>
+          <div class="service">
+            <img src="images/consultation.jpg" alt="">
+            <h3>Doctor's Consultation</h3>
+            <p>A consultation with a cosmetologist will allow you to analyze the condition of the skin in detail</p>
+            <a href="">MORE INFO</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="prices" id="prices">
+        <div class="accordion">
+          <h2>Services and prices</h2>
+          <div class="accordion-item">
+            <div class="accordion-item-header">AESTHETIC COSMETOLOGY</div>
+            <div class="accordion-item-body">
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Peelings</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Peeling Enerpeel Jessner</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Enerpeel Almond</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Enerpeel Glycolic</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Enerpeel Pyruvine</td>
+                      <td class="price">65€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Enerpeel Salicylic</td>
+                      <td class="price">12€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Enerpeel TCA</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Me Line</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling PRXT-33: face 1.5 ml</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling PRXT-33 face, neck, decollete 2.0 ml</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Meline: intimate rejuvenation</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Enzyme peeling</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Peeling Ultimate Eye Corrector: area around the eyes</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Stimulating peeling ZO skin</td>
+                      <td class="price">90€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Face cleaning</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Combined facial cleansing</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Ultrasonic face cleaning</td>
+                      <td class="price">55€</td>
+                    </tr>
+                    <tr>
+                      <td>Acne correction ZO skin</td>
+                      <td class="price">90€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Face massage</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Sculptural facial massage</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Buccal facial massage</td>
+                      <td class="price">90€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Beauty care Biogenie</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Cosmetic care Biogenie Lux program with alginate mask</td>
+                      <td class="price">12€</td>
+                    </tr>
+                    <tr>
+                      <td>Cosmetic care Biogenie program Lux without alginate mask</td>
+                      <td class="price">23€</td>
+                    </tr>
+                    <tr>
+                      <td>Beauty care Biogenie Detox program</td>
+                      <td class="price">23€</td>
+                    </tr>
+                    <tr>
+                      <td>Cosmetic care Biogenie Bellift program</td>
+                      <td class="price">21€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Beauty treatments HydroPeptide</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Grand care with the effect of circular tightening and relaxation CRYOLIFT</td>
+                      <td class="price">90€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Beauty treatments for face ZO Skin</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Ultra-moisturizing ZO skin</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Skin Lightening ZO skin</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Instant update ZO skin</td>
+                      <td class="price">68€</td>
+                    </tr>
+                    <tr>
+                      <td>ZO skin skin renewal</td>
+                      <td class="price">89€</td>
+                    </tr>
+                    <tr>
+                      <td>ZO skin mask</td>
+                      <td class="price">40€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Microcurrent therapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Microcurrents (gloves)</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Microcurrents (handle)</td>
+                      <td class="price">50€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Other beauty treatments</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Ultrasound/Phonophoresis Skinmaster</td>
+                      <td class="price">30€</td>
+                    </tr>
+                    <tr>
+                      <td>Alginate mask</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Post-procedural mask</td>
+                      <td class="price">50€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Cosmetic facelift</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Acupuncture face lifting Baby Face</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr?>
+                      <td>Acupuncture face lifting</td>
+                      <td class="price">50€</td>
+                  </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">HARDWARE COSMETOLOGY</div>
+            <div class="accordion-item-body">
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Ultrasonic SMAS-lifting on the device Ultherapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Face 400 lines</td>
+                      <td class="price">40€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Face 500 lines</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Face 600 lines</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Face 800 lines</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Face 1000 lines</td>
+                      <td class="price">55€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Lower half of the face to the neck 350 lines</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Lower half of the face to the neck 700 lines</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Neck (with submandibular area) 300 lines</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Area around the eyes 100 lines</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Area around the lips 30 lines</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>SMAS-lifting Ulthera System: Additional line</td>
+                      <td class="price">75€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">RF lifting BTL Exilis Elite</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>RF-lifting Exilis face/neck/décolleté</td>
+                      <td class="price">20€</td>
+                    </tr>
+                    <tr>
+                      <td>RF-lifting Exilis face, eyes</td>
+                      <td class="price">56€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis periorbital area</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>RF-lifting Exilis middle and lower third of the face</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>RF-lifting Exils neck, decollete</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis neck</td>
+                      <td class="price">40€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis hands</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>RF-lifting Exilis inner surface of the shoulders</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis belly</td>
+                      <td class="price">30€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis flanks</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis inner/outer thighs</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>RF-lifting Exilis anterior / posterior thighs</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis gluteal region</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis knees</td>
+                      <td class="price">30€</td>
+                    </tr>
+                    <tr>
+                      <td>RF lifting Exilis back</td>
+                      <td class="price">90€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">BTL-6000 Lymphastim pressotherapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>BTL foot pressure therapy 30 min</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>BTL foot pressure therapy 45 min</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>BTL foot pressure therapy 60 min</td>
+                      <td class="price">60€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">BTL X-Wave shock wave therapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>BTL shock wave therapy Stretching program 4000 shocks</td>
+                      <td class="price">40€</td>
+                    </tr>
+                    <tr>
+                      <td>BTL shock wave therapy program Cellulite/ lifting 6000 shocks</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>BTL shock wave therapy program Scars 4000 shocks</td>
+                      <td class="price">60€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">INJECTION COSMETOLOGY</div>
+            <div class="accordion-item-body">
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Contour plastic</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Lip contouring Belotero Lips Shape - 0.6 ml</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Contour plastic Belotero Soft - 1.0 ml</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>Contour plastic Belotero Volume - 1.0 ml</td>
+                      <td class="price">65€</td>
+                    </tr>
+                    <tr>
+                      <td>Contouring Juvederm Ultra Smile - 0.5 ml</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>Restylane contour plastic - 1.0 ml</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Contour plastic Stylage S - 1.0 ml</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Evanthia 15 Contouring</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Contouring Evanthia 20</td>
+                      <td class="price">30€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Mesotherapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Intradermal injection gel implant Mesoeye C71 1 ml</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>Intradermal injection intradermal gel Novacutan Y Bio 2 ml</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Intradermal injection of dermal implants Profhilo 2 ml</td>
+                      <td class="price">40€</td>
+                    </tr>
+                    <tr>
+                      <td>Biorevitalization Revi Eye 1ml</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Biorevitalization Revi Silk 2ml</td>
+                      <td class="price">80€</td>
+                    </tr>
+                    <tr>
+                      <td>Biorevitalization Revi Style 2ml</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Biorevitalization Revi Strong 2ml</td>
+                      <td class="price">90€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>      
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Biostimulation</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Dermal filler injections based on polylactic acid "Sculptra"</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Injections of collagen material "Collost" 15% 1.5 ml</td>
+                      <td class="price">65€</td>
+                    </tr>
+                    <tr>
+                      <td>Injections of collagen material "Collost micro"</td>
+                      <td class="price">35€</td>
+                    </tr>
+                    <tr>
+                      <td>Collagen rejuvenation NITHYA</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Collagen therapy "Sferogel Light" 1 ml</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Collagen therapy "Sferogel Medium" 1 ml</td>
+                      <td class="price">65€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>  
+              
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Introlipotherapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Subcutaneous injection of MESOSCULPT 1 ml</td>
+                      <td class="price">67€</td>
+                    </tr>
+                    <tr>
+                      <td>Mesotherapy Meso Phyto Slim - 4 ml body</td>
+                      <td class="price">90€</td>
+                    </tr>
+                    <tr>
+                      <td>Mesotherapy Aqualyx - 8 ml body</td>
+                      <td class="price">56€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>  
+              
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Plasma therapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Plasma therapy T-LAB PRP TUBE 1 tube</td>
+                      <td class="price">€</td>
+                    </tr>
+                    <tr>
+                      <td>Plasma therapy T-LAB PRP TUBE 3 tubes</td>
+                      <td class="price">45€</td>
+                    </tr>
+                    <tr>
+                      <td>Plasma therapy RegenLab - 1 red tube</td>
+                      <td class="price">64€</td>
+                    </tr>
+                    <tr>
+                      <td>Plasma therapy RegenLab - 1 blue tube</td>
+                      <td class="price">85€</td>
+                    </tr>
+                    <tr>
+                      <td>Plasma therapy Cortexil -1 tube</td>
+                      <td class="price">65€</td>
+                    </tr>
+                    <tr>
+                      <td>Plasmolifting Russia - 1 tube</td>
+                      <td class="price">35€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Botulinum therapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Dysport injections 1 unit</td>
+                      <td class="price">65€</td>
+                    </tr>
+                    <tr>
+                      <td>Xeomin injections 1 unit</td>
+                      <td class="price">75€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Placental Therapy</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Placental therapy Melson (Melsmon) - 1 ampoule, 2.0 ml</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Placental therapy Curacen (Kurasen) - 1 ampoule, 2.0 ml</td>
+                      <td class="price">50€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="accordion-inner-item">
+                <div class="accordion-inner-item-header">Treatment room</div>
+                <div class="accordion-inner-item-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th class="price">Price</th>
+                    </tr>
+                    <tr>
+                      <td>Dropper Beauty</td>
+                      <td class="price">40€</td>
+                    </tr>
+                    <tr>
+                      <td>Dropper Detox</td>
+                      <td class="price">89€</td>
+                    </tr>
+                    <tr>
+                      <td>Express detox dropper</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Dropper After party</td>
+                      <td class="price">69€</td>
+                    </tr>
+                    <tr>
+                      <td>Immuno drip</td>
+                      <td class="price">60€</td>
+                    </tr>
+                    <tr>
+                      <td>Dropper Energy</td>
+                      <td class="price">70€</td>
+                    </tr>
+                    <tr>
+                      <td>Dropper Fitness</td>
+                      <td class="price">50€</td>
+                    </tr>
+                    <tr>
+                      <td>Antistress drip</td>
+                      <td class="price">40€</td>
+                    </tr>
+                    <tr>
+                      <td>Dropper Cinderella</td>
+                      <td class="price">65€</td>
+                    </tr>
+                    <tr>
+                      <td>Dropper Royal with glutathione</td>
+                      <td class="price">40€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <div class="accordion-item-header">DOCTORS' CONSULTATION</div>
+            <div class="accordion-item-body">
+              <table>
+                <tr>
+                  <th>Name</th>
+                  <th class="price">Price</th>
+                </tr>
+                <tr>
+                  <td>Chief physician's consultation</td>
+                  <td class="price">80€</td>
+                </tr>
+                <tr>
+                  <td>General consultation of a cosmetologist</td>
+                  <td class="price">40€</td>
+                </tr>
+                <tr>
+                  <td>Repeated appointment with a cosmetologist</td>
+                  <td class="price">60€</td>
+                </tr>
+                <tr>
+                  <td>Consultation/referral for procedure</td>
+                  <td class="price">60€</td>
+                </tr>
+                <tr>
+                  <td>ImmunoHealth doctor's consultation</td>
+                  <td class="price">50€</td>
+                </tr>
+                <tr>
+                  <td>Nutritionist's consultation</td>
+                  <td class="price">40€</td>
+                </tr>
+                <tr>
+                  <td>Repeated consultation with a nutritionist</td>
+                  <td class="price">66€</td>
+                </tr>
+                <tr>
+                  <td>Bioresonance diagnostics</td>
+                  <td class="price">80€</td>
+                </tr>
+                <tr>
+                  <td>Trichological diagnostics</td>
+                  <td class="price">70€</td>
+                </tr>
+                <tr>
+                  <td>Dermatological diagnostics</td>
+                  <td class="price">30€</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="projects" id="portfolio">
+        <div class="container">
+          <div class="projects-wrapper">
+            <h2 class="section-head block">Look at my <br> recent results</h2>
+  
+            <div class="project-slider-wrapper">
+              <div class="project-slider">
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_0.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Face massage</h4>
+                    <h3>Aesthetic Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_1.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Botox lip flip</h4>
+                    <h3>Injection Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_2.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Face cleaning</h4>
+                    <h3>Aesthetic Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_3.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Face cleaning</h4>
+                    <h3>Aesthetic Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_4.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Botox lip flip</h4>
+                    <h3>Injection Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_5.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Forehead Botox treatment</h4>
+                    <h3>Injection Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_6.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Face cleaning</h4>
+                    <h3>Aesthetic Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_7.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Botox lip flip</h4>
+                    <h3>Injection Cosmetology</h3>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-img" style="background-image: url(images/before-after_8.jpg)"></div>
+                  <div class="project-desc">
+                    <h4>Forehead Botox treatment</h4>
+                    <h3>Injection Cosmetology</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="faq">
+        <div class="accordion">
+          <h2 class="faq-title">FAQ</h2>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">What is the difference between Botox and dermal fillers?</div>
+            <div class="accordion-item-body">
+              <p>Botox and dermal fillers are both injection treatments, but they serve different purposes. Botox is used to relax facial muscles and reduce wrinkles, while dermal fillers add volume to areas like the cheeks and lips to restore youthful contours.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">Can aesthetic cosmetology treatments help with acne-prone skin?</div>
+            <div class="accordion-item-body">
+              <p> Yes, many aesthetic treatments, such as chemical peels and laser therapies, can be effective in reducing acne and improving the overall texture and tone of the skin.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">What is a HydraFacial, and what are its benefits?</div>
+            <div class="accordion-item-body">
+              <p>A HydraFacial is a multi-step facial treatment that cleanses, exfoliates, and hydrates the skin. It can improve skin texture, reduce fine lines, and give your skin a radiant glow.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">How does radiofrequency skin tightening work?</div>
+            <div class="accordion-item-body">
+              <p>Radiofrequency skin tightening uses energy to heat the deeper layers of the skin, stimulating collagen production and tightening the skin. It can be used on areas like the face, neck, and body to reduce sagging and improve elasticity.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">Are injectable treatments painful?</div>
+            <div class="accordion-item-body">
+              <p>Most injectable treatments involve minimal discomfort, as practitioners often use fine needles and can apply a numbing cream to the treatment area for added comfort.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">How long do the effects of dermal fillers last?</div>
+            <div class="accordion-item-body">
+              <p>The longevity of dermal fillers varies depending on the type of filler used and individual factors. Generally, results can last anywhere from 6 months to 2 years.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">Can I combine different injection treatments during one session?</div>
+            <div class="accordion-item-body">
+              <p>In many cases, combining treatments like Botox and dermal fillers can be done in the same session to address multiple concerns effectively. Your provider will guide you based on your specific needs.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">Can I wear makeup after a chemical peel?</div>
+            <div class="accordion-item-body">
+              <p>It's best to avoid wearing makeup for at least 24 hours after a chemical peel to allow the skin to heal properly.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-item-header">Are there any side effects of microdermabrasion?</div>
+            <div class="accordion-item-body">
+              <p>Microdermabrasion is generally safe, but it may cause temporary redness or mild sensitivity. These effects typically subside within a few hours after the treatment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="footer-adres" id="contact">
+        <div class="footer-adres__info">
+          <h2>ADRES</h2>
+          <p>Goldfield Rd.<br>Honolulu, Hi 96815</p>
+          <h2>PHONE NUMBER</h2>
+          <p>+49592348574</p>
+          <h2>GOT QUESTIONS?</h2>
+          <a href=""><img src="images/instagram_icon.png" alt=""></a>
+          <a href=""><img src="images/telegram_icon.png" alt=""></a>
+        </div>
+        <div class="footer-adres__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9705.735233248852!2d13.40101230552384!3d52.54367753147735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85341d1532ea3%3A0x9589d2517b51bd58!2sBEAUTY%20and%20CURE!5e0!3m2!1sen!2sde!4v1690566913648!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+      </section>
+
+
+
+
+    
+
+
+
+
+    </main>
+  </body>
+</html>
